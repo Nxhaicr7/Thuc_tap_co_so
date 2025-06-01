@@ -72,16 +72,8 @@ source_code/
 
 │   └── animals/
 
-│
-
 ├── tensorboard/            # Log cho tensorboard
 
-
-├── .venv/                  # Môi trường ảo Python
-
-└── Dataset_and_weight/     # Dataset và weight đã nén
-
-└── Dataset_and_weight.zip
 
 
 

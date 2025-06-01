@@ -47,6 +47,7 @@ source_code/
 │
 ├── .venv/                  # Môi trường ảo Python
 │
+
 └── Dataset_and_weight/     # Dataset và weight đã nén
     └── Dataset_and_weight.zip
 
@@ -58,7 +59,5 @@ cd source_code
 pip install -r requirements.txt
 
 
-3. Chạy ứng dụng
+2. Chạy ứng dụng
 python app.py
-
-

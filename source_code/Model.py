@@ -15,7 +15,7 @@ def get_efficient(number_classes, pretrained_path=None):
     return model
 
 if __name__ == "__main__":
-    model = get_efficient(19, pretrained_path="/home/nxhai/Downloads/AI/ComputerVision/ComputerVision/Animal_classification/efficientnet_b0_rwightman-3dd342df.pth")
+    model = get_efficient(19, pretrained_path="efficientnet_b0_rwightman-3dd342df.pth")
     batch_size = 64
     x = torch.rand(batch_size, 3, 224, 224)
     output = model(x)

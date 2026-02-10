@@ -1,0 +1,20 @@
+# Core deep learning
+torch>=2.0.0
+torchvision>=0.15.0
+torchsummary
+
+# Data handling
+numpy
+scikit-learn
+opencv-python
+flask
+Pillow
+
+# Progress bar
+tqdm
+
+# TensorBoard
+tensorboard
+
+# Visualization
+matplotlib

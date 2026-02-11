@@ -1,0 +1,55 @@
+# Dataset (too large for git)
+animals.zip
+source_code/animals/
+
+# Checkpoint folders - but allow best.pt to be tracked
+source_code/precheckpoint/
+source_code/checkpoint/*
+!source_code/checkpoint/animals/
+!source_code/checkpoint/animals/best.pt
+
+# Static files (uploaded images)
+source_code/static/*.jpg
+source_code/static/*.jpeg
+source_code/static/*.png
+source_code/static/resized_*
+static/Cursor-0.49.6-x86_641.AppImage
+
+# TensorBoard logs
+source_code/tensorboard/
+
+# Test images
+source_code/test_image/*.jpg
+source_code/test_image/*.jpeg
+source_code/test_image/*.png
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Confusion matrix images
+confusion_matrix_*.png
